@@ -1,0 +1,42 @@
+.showcase {
+  width: 80%;
+  height: 100%;
+  margin-top: 50px;
+  position: relative;
+}
+.content {
+  position: absolute;
+  top: 150px;
+  left: 370px;
+  color: white;
+  text-align: left;
+}
+.header {
+  font-weight: 1000;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  margin: 0;
+}
+.btn {
+  color: white !important;
+  font-weight: 600;
+  background: rgb(251, 96, 39) !important;
+  transition: 0.2ms;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in;
+}
+.btn:hover {
+  letter-spacing: 6px;
+  background: rgb(251, 96, 39);
+}
+.text h2 {
+  margin-top: 0;
+  font-size: 30px;
+  text-shadow: 2px 2px black;
+}
+.text p {
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 400;
+  text-shadow: 2px 2px black;
+}

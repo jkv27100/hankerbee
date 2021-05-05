@@ -1,0 +1,80 @@
+.modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgb(40, 44, 63, 0.4);
+}
+
+.item {
+  width: 800px;
+  background: white;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 100%;
+  padding-left: 250px;
+  padding-top: 30px;
+}
+
+.closeicon {
+  margin-bottom: 30px;
+}
+.closeicon:hover {
+  cursor: pointer;
+  color: coral;
+}
+.textarea {
+  border: 1px solid rgb(209, 208, 208);
+  outline: none;
+  padding: 20px;
+  font-size: 17px;
+  width: 92%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+.textarea:focus {
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01),
+    0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+.currentlocation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 1px solid rgb(209, 208, 208);
+  width: 100%;
+  height: 90px;
+  align-items: center;
+}
+.p:hover {
+  cursor: pointer;
+  color: coral;
+}
+
+.savedaddress {
+  margin-top: 50px;
+  border: 1px solid rgb(209, 208, 208);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 25px;
+  border-bottom: 1px dotted rgb(209, 208, 208);
+}

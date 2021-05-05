@@ -1,0 +1,8 @@
+.container {
+  padding-right: 50px;
+  transition: all 0.5s;
+  backface-visibility: visible;
+}
+.container:hover {
+  transform: scale(1.06);
+}

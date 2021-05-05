@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.tabitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 80px;
+}
+.icontext {
+  margin-left: 7px;
+}
+.tabitem:hover {
+  color: coral;
+  cursor: pointer;
+}
